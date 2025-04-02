@@ -76,9 +76,9 @@
             <div style="text-align: right; min-width: 30px;">
                 <div class="avatar-box-heder">
                     {% if CurrentUserAvatar %}
-                        <a href={{ClientId}}><img class="avatar-img-heder" src="{{CurrentUserAvatar}}" alt=""></a>
+                        <a id="avatar-img-heder-linck" href={{ClientId}}><img class="avatar-img-heder" src="{{CurrentUserAvatar}}" alt=""></a>
                     {% else %}
-                        <a href={{ClientId}}><img class="avatar-img-heder" src="../static/img/avatar.jpg"></a>
+                        <a id="avatar-img-heder-linck" href={{ClientId}}><img class="avatar-img-heder" src="../static/img/avatar.jpg"></a>
                     {% endif %}
                 </div>
                 <!-- <a href={{ClientId}}><img class="icon-img-client" src="../static/img/avatar.jpg" height="30px"></a> -->

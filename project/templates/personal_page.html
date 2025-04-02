@@ -81,6 +81,8 @@
                 this.className = "bi bi-heart-fill";
                 cntLikes = +cntLikes + 1;
                 likeContaner.querySelector('span').innerText = cntLikes;
+                console.log(likeContaner.parentElement.parentElement.id)
+                console.log(document.querySelector("#avatar-img-heder-linck").href)
                 flags[+(likeContaner.id)] = true;
             }
             let createPostButton = document.getElementById('createPost');
